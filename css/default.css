@@ -11,11 +11,13 @@
     border: 0;
     font-family: 'Hack', monospace;
     font-weight: bold;
+    background-color: var(--black);
+    color: var(--green);
 }
 
 .everything {
     display: inline-flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     background-color: var(--black);
     max-width: 800px;

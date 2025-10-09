@@ -1,6 +1,9 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+    <title>Blogs!</title>
+</head>
+<body>
 
 <div class="everything">
     <div class="blog-title">
@@ -14,10 +17,20 @@ layout: default
 
     <div class="blog-list-label">Blogs!</div>
     <ul class="blog-list">
-        {% for post in site.posts %}
         <li>
-            <a class="blog-list-item" href="{{ post.url }}">{{ post.title }}</a>
+            <a class="blog-list-item" href="posts/2025-09-19-poem-about-horrific-nightmares">2025-09-19 Poem About
+                Horrific Nightmares</a>
         </li>
-        {% endfor %}
+        <li>
+            <a class="blog-list-item" href="posts/2019-06-04-electrical-standards">2019-06-04 Electrical Standards</a>
+        </li>
+        <li>
+            <a class="blog-list-item" href="posts/2016-06-22-english-improvements">2016-06-22 English Improvements</a>
+        </li>
+        <li>
+            <a class="blog-list-item" href="posts/2016-02-19-saskatoon-flywheel">2016-02-19 Saskatoon Flywheel</a>
+        </li>
     </ul>
 </div>
+</body>
+</html>

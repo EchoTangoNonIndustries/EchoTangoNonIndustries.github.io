@@ -1,16 +1,9 @@
----
-# Front matter comment to ensure Jekyll properly reads file.
----
+/*Hack font*/
+/*http://sourcefoundry.org/hack/#download*/
+@import url('cdn.jsdelivr.net/font-hack/2.019/css/hack.css');
 
-// Hack font
-// http://sourcefoundry.org/hack/#download
-@import url('cdn.jsdelivr.net/font-hack/2.019/css/hack.css')
-
-// colors
-$black: #000
-$green-dark: #020
-$green-med: #080
-$green: #0F0
+/*colors*/
+@import url('css/colors.css');
 
 // sizes
 $x1: 9px

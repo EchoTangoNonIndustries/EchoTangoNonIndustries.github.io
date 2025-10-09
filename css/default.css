@@ -1,28 +1,23 @@
----
-# Front matter comment to ensure Jekyll properly reads file.
----
+/*Hack font*/
+/*http://sourcefoundry.org/hack/#download*/
+@import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css');
 
-// Hack font
-// http://sourcefoundry.org/hack/#download
-@import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css')
-
-// colors
-$black: #000
-$green-dark: #020
-$green-med: #080
-$green: #0F0
+/*colors*/
+@import url('css/colors.css');
 
 // sizes
 $x1: 9px
 $x2: $x1 * 2
 $x3: $x1 * 3
 
-*
-    padding: 0
-    margin: 0
-    border: 0
-    font-family: 'Hack'
-    font-weight: bold
+:root {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Hack';
+    font-weight: bold;
+}
+
 
 everything
     display: inline-flex

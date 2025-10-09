@@ -1,39 +1,47 @@
 /*Hack font*/
 /*http://sourcefoundry.org/hack/#download*/
-@import url('cdn.jsdelivr.net/font-hack/2.019/css/hack.css');
+@import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css');
 
 /*colors*/
 @import url('css/colors.css');
 
-*
-    padding: 0
-    margin: 0
-    border: 0
-    font-family: 'Hack'
-    font-weight: bold
+:root {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Hack', monospace;
+    font-weight: bold;
+}
 
-body
-    background-color: $green-med
-    color: $black
-    font-size: $x2
-    line-height: 1.4
-    padding: $x1
-    
-    a
-        background: $green-dark
-        color: $green-med
-        text-decoration: none
-    
-    .post-content
-        background: $black
-        color: $green
-        max-width: 800px
-        padding: $x2
-        margin: $x1
-        
-        a
-            background: $green-med
-            color: $green-dark
+code {
+    white-space: pre;
+}
 
-        h1
-            margin-top: $x2
+body {
+    background-color: var(--green-med);
+    color: var(--black);
+    line-height: 1.4;
+}
+
+body a {
+    background: var(--green-dark);
+    color: var(--green-med);
+    text-decoration: none
+}
+
+body.post-content {
+    background: var(--black);
+    color: var(--green);
+    max-width: 800px;
+    padding: 10px;
+    margin: 30px;
+}
+
+body.post-content a {
+    background: var(--green-med);
+    color: var(--green-dark);
+}
+
+body.post-content h1 {
+    margin-top: 0;
+}

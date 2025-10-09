@@ -20,9 +20,9 @@
     background-color: var(--black);
     max-width: 800px;
     color: var(--green);
-    font-size: var(--x2);
+    font-size: var(14);
     line-height: 1.4;
-    padding: var(--x1);
+    padding: var(10);
 }
 
 .blog-list {

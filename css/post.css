@@ -5,7 +5,7 @@
 /*colors*/
 @import url('/css/colors.css');
 
-:root {
+html {
     padding: 0;
     margin: 0;
     border: 0;
@@ -23,13 +23,25 @@ body {
     line-height: 1.4;
 }
 
-body a {
+:is(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: 5px;
+}
+
+:is(h1, h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6) {
+    margin-top: 0;
+}
+
+:is(h1, h2, h3, h4, h5, h6) + * {
+    margin-top: 0;
+}
+
+a {
     background: var(--green-dark);
     color: var(--green-med);
     text-decoration: none
 }
 
-body.post-content {
+.post-content {
     background: var(--black);
     color: var(--green);
     max-width: 800px;
@@ -37,11 +49,11 @@ body.post-content {
     margin: 30px;
 }
 
-body.post-content a {
+.post-content a {
     background: var(--green-med);
     color: var(--green-dark);
 }
 
-body.post-content h1 {
+.post-content h1 {
     margin-top: 0;
 }

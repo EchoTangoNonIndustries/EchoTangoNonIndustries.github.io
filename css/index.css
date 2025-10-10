@@ -5,26 +5,28 @@
 /*colors*/
 @import url('/css/colors.css');
 
-:root {
-    padding: 0;
+* {
     margin: 0;
     border: 0;
+}
+
+html {
+    padding: 10px;
     font-family: 'Hack', monospace;
     font-weight: bold;
     background-color: var(--black);
     color: var(--green);
-}
 
-.everything {
     display: inline-flex;
     flex-direction: column;
-    justify-content: center;
-    background-color: var(--black);
-    max-width: 800px;
-    color: var(--green);
-    font-size: var(14);
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
     line-height: 1.4;
-    padding: var(10);
+}
+
+body {
+    max-width: min(100vw, 600px);
 }
 
 .blog-list {

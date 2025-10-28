@@ -41,6 +41,10 @@ a {
     text-decoration: none
 }
 
+code {
+    display: block;
+}
+
 .post-content {
     background: var(--black);
     color: var(--green);

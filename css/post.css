@@ -43,6 +43,7 @@ a {
 
 code {
     display: block;
+    margin-top: -15px;
 }
 
 .post-content {

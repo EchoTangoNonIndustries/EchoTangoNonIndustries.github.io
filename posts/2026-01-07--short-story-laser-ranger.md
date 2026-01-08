@@ -1,6 +1,0 @@
-- laser-ranger wakes up in the post-apocalypse
-- a few vignettes
-- scavenge batteries
-- Tough Choices TM for ammo vs other uses
-- they're on a journey to The White Spire, for the Holy Fabricator
-- end with them hitting the button, and a bright flash of light...

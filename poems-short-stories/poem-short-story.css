@@ -7,11 +7,6 @@
 }
 
 html {
-    --page-background-color: #7E197E;
-    --list-item-background-color: #A921A8;
-    --text-color: #000;
-    --text-font: 'TeX Gyre Chorus', sans-serif;
-
     padding: 0;
     margin: 0;
     border: 0;

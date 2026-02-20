@@ -2,22 +2,23 @@
 /*http://sourcefoundry.org/hack/#download*/
 @import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css');
 
-:root {
-    --paper-background-color: #F2E3BC;
-    --paper-text-color: #000;
-}
-
 * {
     margin: 0;
     border: 0;
 }
 
 html {
+    /* colors */
+    --page-background-color: #F2E3BC;
+    --page-text-color: #000;
+    --list-item-background-color: #EAD191;
+    --list-item-text-color: #000;
+
     padding: 10px;
     font-family: 'Hack', monospace;
     font-weight: bold;
-    background-color: var(--paper-background-color);
-    color: var(--paper-text-color);
+    background-color: var(--page-background-color);
+    color: var(--page-text-color);
 
     display: inline-flex;
     flex-direction: column;
@@ -37,8 +38,8 @@ body {
 }
 
 .list-item {
-    background: var(--paper-background-color);
-    color: var(--paper-text-color);
+    background: var(--list-item-background-color);
+    color: var(--list-item-text-color);
     text-decoration: none;
     display: block;
 }

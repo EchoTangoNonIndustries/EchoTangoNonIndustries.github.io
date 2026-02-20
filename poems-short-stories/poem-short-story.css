@@ -1,0 +1,40 @@
+/* handwriting-ish font */
+@import url('https://fonts.cdnfonts.com/css/tex-gyre-chorus');
+
+/* TODO copy the line-wrap stuff from the index page's individual list items */
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+html {
+    --page-background-color: #7E197E;
+    --list-item-background-color: #A921A8;
+    --text-color: #000;
+    --text-font: 'TeX Gyre Chorus', sans-serif;
+
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: var(--text-font);
+    font-weight: bold;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: 5px;
+}
+
+:is(h1, h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6) {
+    margin-top: 0;
+}
+
+:is(h1, h2, h3, h4, h5, h6) + * {
+    margin-top: 0;
+}
+
+p {
+    background: var(--list-item-background-color);
+    color: var(--text-color);
+    text-decoration: none
+}

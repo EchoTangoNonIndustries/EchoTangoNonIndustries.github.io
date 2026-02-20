@@ -1,5 +1,4 @@
-/* handwriting-ish font */
-@import url('https://fonts.cdnfonts.com/css/tex-gyre-chorus');
+@import url(index.css);
 
 * {
     margin: 0;

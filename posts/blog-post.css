@@ -2,10 +2,10 @@
 /*http://sourcefoundry.org/hack/#download*/
 @import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css');
 
-/*colors*/
-@import url('/css/colors.css');
-
 html {
+    --page-background-color: #080;
+    --page-text-color: #000;
+
     padding: 0;
     margin: 0;
     border: 0;
@@ -18,8 +18,8 @@ code {
 }
 
 body {
-    background-color: var(--green-med);
-    color: var(--black);
+    background-color: #080;
+    color: #000;
     line-height: 1.4;
 }
 
@@ -36,8 +36,8 @@ body {
 }
 
 a {
-    background: var(--green-dark);
-    color: var(--green-med);
+    background: #020;
+    color: #080;
     text-decoration: none
 }
 
@@ -47,16 +47,16 @@ code {
 }
 
 .post-content {
-    background: var(--black);
-    color: var(--green);
+    background: #000;
+    color: #0F0;
     max-width: 800px;
     padding: 10px;
     margin: 30px;
 }
 
 .post-content a {
-    background: var(--green-med);
-    color: var(--green-dark);
+    background: #080;
+    color: #020;
 }
 
 .post-content h1 {

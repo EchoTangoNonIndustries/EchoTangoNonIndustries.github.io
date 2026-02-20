@@ -1,8 +1,6 @@
 /* handwriting-ish font */
 @import url('https://fonts.cdnfonts.com/css/tex-gyre-chorus');
 
-/* TODO copy the line-wrap stuff from the index page's individual list items */
-
 * {
     margin: 0;
     border: 0;
